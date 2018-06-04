@@ -4,7 +4,7 @@ My vim config and install script.
 Usage:
 ```
 git clone git@github.com:n0b0dyCN/n0vim.git ~/n0vim
-cd ~/n0cms
+cd ~/n0vim
 chmod a+x install-n0vim.sh
 ./install-n0vim.sh 
 ```
