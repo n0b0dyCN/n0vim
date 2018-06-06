@@ -68,7 +68,10 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let NERDTreeShowBookmarks=1
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 let NERDTreeWinSize=25
-
+autocmd VimEnter * NERDTree
+wincmd w
+autocmd VimEnter * wincmd w
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " indent line
 let g:indentLine_char='┆'
