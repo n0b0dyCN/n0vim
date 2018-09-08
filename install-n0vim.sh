@@ -17,10 +17,10 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp vimrc ~/.vimrc
 
 # install ycm by hand
-cd ～/.vim/bundle
+cd ~/.vim/bundle
 git clone --recursive https://github.com/Valloric/YouCompleteMe.git
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer --go-completer 
+./install.py --clang-completer
 
 vim +PluginInstall +qall
 
