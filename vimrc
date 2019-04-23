@@ -46,6 +46,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tell-k/vim-autopep8'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'rust-lang/rust.vim'
 call vundle#end()
 filetype plugin indent on
 
